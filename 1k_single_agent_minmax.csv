@@ -1,959 +1,1000 @@
 event_type,agent_id,context
 GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,0"
 MOVE,my_move,"1,2"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"2,2"
+GAME_END,system,O
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"2,1"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"2,0"
 MOVE,opponent_move,"0,1"
 MOVE,my_move,"2,1"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"0,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"2,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"0,0"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"0,0"
 MOVE,opponent_move,"2,2"
 MOVE,my_move,"0,2"
 GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"2,0"
+GAME_START,system,New Game - Playing as O
 MOVE,opponent_move,"1,0"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"0,0"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"0,1"
 MOVE,my_move,"2,0"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"2,2"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"2,1"
 GAME_END,system,X
 GAME_START,system,New Game - Playing as X
 MOVE,my_move,"2,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"1,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"0,0"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"2,0"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"1,1"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"2,2"
 MOVE,opponent_move,"1,2"
 MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,0"
+MOVE,opponent_move,"2,0"
 MOVE,my_move,"1,1"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"2,2"
 GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,1"
+GAME_START,system,New Game - Playing as O
 MOVE,opponent_move,"1,2"
-MOVE,my_move,"1,0"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"1,1"
 MOVE,opponent_move,"2,0"
-MOVE,my_move,"0,0"
+MOVE,my_move,"1,0"
 MOVE,opponent_move,"0,1"
 MOVE,my_move,"2,2"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"1,2"
 MOVE,opponent_move,"2,1"
-MOVE,my_move,"0,1"
 GAME_END,system,draw
 GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"1,0"
 MOVE,my_move,"2,2"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"0,2"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"2,2"
+MOVE,opponent_move,"1,2"
 MOVE,my_move,"2,0"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"0,0"
 MOVE,opponent_move,"1,1"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"2,1"
 MOVE,my_move,"1,0"
 GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"1,1"
+GAME_START,system,New Game - Playing as O
 MOVE,opponent_move,"2,0"
-MOVE,my_move,"1,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"1,0"
 MOVE,my_move,"2,1"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"2,0"
 MOVE,opponent_move,"0,2"
 MOVE,my_move,"0,0"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"2,0"
-GAME_END,system,draw
+MOVE,opponent_move,"1,1"
+GAME_END,system,X
 GAME_START,system,New Game - Playing as X
 MOVE,my_move,"2,0"
 MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"1,0"
 MOVE,my_move,"1,2"
 MOVE,opponent_move,"0,2"
 MOVE,my_move,"0,1"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"2,2"
 MOVE,opponent_move,"2,1"
-MOVE,my_move,"1,0"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"0,2"
 MOVE,my_move,"2,2"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"1,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"2,1"
 MOVE,opponent_move,"0,0"
+MOVE,my_move,"0,1"
 GAME_END,system,O
 GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,1"
 MOVE,my_move,"0,1"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"2,1"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"2,0"
+MOVE,opponent_move,"2,1"
 MOVE,my_move,"1,1"
-MOVE,opponent_move,"1,2"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"1,0"
 MOVE,my_move,"0,0"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"1,0"
 GAME_END,system,X
 GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"1,0"
 MOVE,my_move,"1,1"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"2,1"
 MOVE,opponent_move,"0,1"
 MOVE,my_move,"0,2"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,2"
 MOVE,opponent_move,"2,0"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"2,1"
-GAME_END,system,O
-GAME_START,system,New Game - Playing as X
 MOVE,my_move,"1,0"
 MOVE,opponent_move,"1,2"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"0,1"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,0"
 MOVE,my_move,"2,2"
 GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"1,2"
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"1,0"
 GAME_END,system,draw
 GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,0"
+MOVE,my_move,"1,2"
 MOVE,opponent_move,"1,1"
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"2,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"2,0"
 MOVE,my_move,"2,2"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"0,0"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"2,0"
 MOVE,opponent_move,"2,1"
-MOVE,my_move,"1,1"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"1,0"
 MOVE,my_move,"0,0"
-MOVE,opponent_move,"2,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"0,0"
 MOVE,my_move,"0,2"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"1,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,1"
 MOVE,opponent_move,"2,0"
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"0,2"
-GAME_END,system,O
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"2,0"
 GAME_END,system,X
 GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"0,0"
+MOVE,my_move,"1,1"
 MOVE,opponent_move,"1,2"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"0,2"
-GAME_END,system,O
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"1,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"1,1"
+MOVE,my_move,"2,0"
 MOVE,opponent_move,"0,2"
 MOVE,my_move,"0,1"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"0,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"0,1"
-GAME_END,system,O
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"2,2"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"2,0"
 MOVE,opponent_move,"2,1"
-MOVE,my_move,"1,1"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
 MOVE,my_move,"2,2"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"1,1"
 MOVE,opponent_move,"0,0"
-MOVE,my_move,"2,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"2,1"
 MOVE,my_move,"1,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"2,1"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"1,2"
 MOVE,opponent_move,"0,1"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"1,0"
 MOVE,my_move,"2,2"
 MOVE,opponent_move,"0,0"
 MOVE,my_move,"0,2"
-MOVE,opponent_move,"1,0"
 GAME_END,system,O
 GAME_START,system,New Game - Playing as X
 MOVE,my_move,"1,2"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"1,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"1,2"
+MOVE,opponent_move,"1,0"
 MOVE,my_move,"2,0"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,2"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"2,2"
 MOVE,opponent_move,"2,1"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"2,0"
 MOVE,my_move,"0,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"2,2"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"0,2"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"2,0"
+MOVE,opponent_move,"1,1"
 MOVE,my_move,"0,1"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"2,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"0,0"
 MOVE,opponent_move,"2,1"
 GAME_END,system,O
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"2,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"1,0"
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,0"
 MOVE,my_move,"1,1"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"2,1"
 MOVE,opponent_move,"0,1"
-MOVE,my_move,"2,0"
+MOVE,my_move,"1,0"
 MOVE,opponent_move,"0,0"
-MOVE,my_move,"2,2"
-GAME_END,system,X
+MOVE,my_move,"1,2"
+GAME_END,system,O
 GAME_START,system,New Game - Playing as X
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"0,2"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"2,1"
 MOVE,my_move,"2,0"
 MOVE,opponent_move,"0,2"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"0,0"
 MOVE,my_move,"1,1"
 MOVE,opponent_move,"1,0"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"2,1"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"2,0"
 GAME_END,system,draw
 GAME_START,system,New Game - Playing as X
 MOVE,my_move,"2,1"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"0,0"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"2,2"
 MOVE,my_move,"1,0"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"0,1"
 MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"0,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"0,1"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"1,1"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"1,1"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"0,2"
+GAME_END,system,O
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"0,0"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"1,1"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"2,2"
 GAME_END,system,O
 GAME_START,system,New Game - Playing as X
 MOVE,my_move,"2,2"
 MOVE,opponent_move,"1,1"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"2,0"
 MOVE,my_move,"0,0"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"0,1"
 MOVE,opponent_move,"0,2"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"1,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"0,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"0,2"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"0,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"2,2"
 GAME_END,system,O
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"0,2"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"2,2"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"2,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"1,0"
+GAME_START,system,New Game - Playing as O
 MOVE,opponent_move,"1,2"
 MOVE,my_move,"2,2"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"2,2"
 MOVE,opponent_move,"1,1"
-MOVE,my_move,"1,2"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"0,0"
-GAME_END,system,O
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"2,1"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"0,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"0,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"2,0"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"1,1"
-GAME_END,system,O
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"1,1"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"0,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"2,1"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"1,2"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"1,0"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"1,2"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"1,2"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"1,2"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"2,0"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"1,1"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"0,1"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"0,2"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"0,1"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"0,2"
-GAME_END,system,O
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"0,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"0,2"
-GAME_END,system,O
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"1,2"
 MOVE,my_move,"1,0"
 MOVE,opponent_move,"0,1"
 MOVE,my_move,"2,1"
 MOVE,opponent_move,"2,0"
-MOVE,my_move,"0,0"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
 MOVE,my_move,"0,2"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"0,1"
 MOVE,opponent_move,"0,0"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"1,0"
 GAME_END,system,draw
 GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"0,0"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"2,1"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"2,2"
 MOVE,my_move,"2,0"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"1,2"
 MOVE,opponent_move,"1,0"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"0,0"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"0,0"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"0,1"
 MOVE,my_move,"1,1"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"0,0"
 GAME_END,system,X
 GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,2"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"2,0"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"2,2"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"0,2"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as O
 MOVE,opponent_move,"0,0"
 MOVE,my_move,"1,2"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"2,0"
 MOVE,opponent_move,"0,2"
-MOVE,my_move,"1,0"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"2,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"0,0"
 MOVE,opponent_move,"0,1"
 GAME_END,system,O
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,1"
+GAME_START,system,New Game - Playing as O
 MOVE,opponent_move,"0,2"
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"2,0"
-GAME_END,system,O
-GAME_START,system,New Game - Playing as X
 MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,2"
+MOVE,opponent_move,"2,0"
 MOVE,my_move,"1,1"
 MOVE,opponent_move,"2,2"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"0,1"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"2,1"
 GAME_END,system,X
 GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"0,2"
 MOVE,my_move,"0,1"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"0,0"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"1,1"
 MOVE,opponent_move,"0,0"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"1,2"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"1,0"
-GAME_END,system,O
-GAME_START,system,New Game - Playing as X
 MOVE,my_move,"1,0"
-MOVE,opponent_move,"0,2"
+MOVE,opponent_move,"1,2"
 MOVE,my_move,"2,1"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"0,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"0,1"
 MOVE,opponent_move,"1,1"
 MOVE,my_move,"1,2"
 MOVE,opponent_move,"2,0"
-GAME_END,system,O
-GAME_START,system,New Game - Playing as X
 MOVE,my_move,"2,2"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"2,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"1,1"
 MOVE,opponent_move,"0,0"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"2,2"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"0,0"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"0,2"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"0,2"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"2,0"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"0,1"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"1,0"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"0,2"
-MOVE,opponent_move,"2,0"
-GAME_END,system,O
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"0,2"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,2"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"1,1"
 GAME_END,system,X
 GAME_START,system,New Game - Playing as X
 MOVE,my_move,"1,1"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"0,0"
 MOVE,opponent_move,"0,2"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"2,1"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"0,1"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"2,2"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"1,1"
-MOVE,opponent_move,"2,2"
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"0,2"
-MOVE,my_move,"1,2"
-MOVE,opponent_move,"1,0"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"2,1"
-MOVE,my_move,"0,1"
-GAME_END,system,draw
-GAME_START,system,New Game - Playing as X
-MOVE,my_move,"0,0"
-MOVE,opponent_move,"1,1"
-MOVE,my_move,"2,1"
-MOVE,opponent_move,"0,1"
-MOVE,my_move,"2,0"
-MOVE,opponent_move,"1,2"
-MOVE,my_move,"1,0"
-GAME_END,system,X
-GAME_START,system,New Game - Playing as X
 MOVE,my_move,"2,0"
 MOVE,opponent_move,"0,0"
-MOVE,my_move,"0,2"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"0,1"
+GAME_END,system,O
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"2,0"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"0,1"
 MOVE,opponent_move,"1,1"
 MOVE,my_move,"2,2"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"1,0"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"1,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,0"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"1,0"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"1,0"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"0,0"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"0,1"
 MOVE,opponent_move,"1,0"
 MOVE,my_move,"2,1"
+GAME_END,system,O
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"0,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"0,1"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"0,1"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"1,0"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"0,2"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"2,1"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"0,1"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"0,0"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"1,0"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"0,1"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"2,2"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"2,0"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"0,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"1,1"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"1,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"1,2"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"2,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"1,0"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"0,1"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"0,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"2,1"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"0,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"1,0"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"1,2"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"2,2"
+GAME_END,system,X
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"1,1"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"1,1"
+GAME_END,system,O
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"0,1"
+GAME_END,system,O
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"0,2"
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"1,0"
+GAME_END,system,O
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,1"
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"2,0"
+MOVE,my_move,"0,0"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"0,2"
+GAME_END,system,O
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"1,0"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"0,0"
+GAME_END,system,draw
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"2,2"
+MOVE,my_move,"1,1"
+MOVE,opponent_move,"2,1"
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"1,2"
+MOVE,opponent_move,"0,1"
+MOVE,my_move,"1,0"
+GAME_END,system,O
+GAME_START,system,New Game - Playing as X
+MOVE,my_move,"2,0"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"1,2"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"1,0"
+GAME_END,system,O
+GAME_START,system,New Game - Playing as O
+MOVE,opponent_move,"0,0"
+MOVE,my_move,"1,0"
+MOVE,opponent_move,"0,2"
+MOVE,my_move,"0,1"
+MOVE,opponent_move,"1,1"
+MOVE,my_move,"2,2"
+MOVE,opponent_move,"2,0"
 GAME_END,system,X
