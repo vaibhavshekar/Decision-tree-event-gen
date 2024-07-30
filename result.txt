@@ -1,0 +1,161 @@
+1/1 ━━━━━━━━━━━━━━━━━━━━ 1s 749ms/step
+Input sequence (event_id, agent_id, context):
+[['MOVE' 'my_move' '0,0']
+ ['GAME_END' 'system' 'draw']
+ ['GAME_START' 'system' 'New Game - Playing as X']
+ ['MOVE' 'my_move' '2,2']
+ ['MOVE' 'opponent_move' '0,1']
+ ['MOVE' 'my_move' '1,1']
+ ['MOVE' 'opponent_move' '0,0']
+ ['MOVE' 'my_move' '0,2']
+ ['MOVE' 'opponent_move' '2,0']
+ ['MOVE' 'my_move' '1,2']]
+Predicted next event_id: MOVE
+Predicted next agent_id: my_move
+Predicted next context: 1,0
+Predicted anomaly: [0]
+------------------------------
+Input sequence (event_id, agent_id, context):
+[['GAME_END' 'system' 'draw']
+ ['GAME_START' 'system' 'New Game - Playing as X']
+ ['MOVE' 'my_move' '2,2']
+ ['MOVE' 'opponent_move' '0,1']
+ ['MOVE' 'my_move' '1,1']
+ ['MOVE' 'opponent_move' '0,0']
+ ['MOVE' 'my_move' '0,2']
+ ['MOVE' 'opponent_move' '2,0']
+ ['MOVE' 'my_move' '1,2']
+ ['GAME_END' 'system' 'X']]
+Predicted next event_id: GAME_END
+Predicted next agent_id: system
+Predicted next context: X
+Predicted anomaly: [1]
+------------------------------
+Input sequence (event_id, agent_id, context):
+[['GAME_START' 'system' 'New Game - Playing as X']
+ ['MOVE' 'my_move' '2,2']
+ ['MOVE' 'opponent_move' '0,1']
+ ['MOVE' 'my_move' '1,1']
+ ['MOVE' 'opponent_move' '0,0']
+ ['MOVE' 'my_move' '0,2']
+ ['MOVE' 'opponent_move' '2,0']
+ ['MOVE' 'my_move' '1,2']
+ ['GAME_END' 'system' 'X']
+ ['GAME_START' 'system' 'New Game - Playing as X']]
+Predicted next event_id: GAME_START
+Predicted next agent_id: system
+Predicted next context: New Game - Playing as X
+Predicted anomaly: [1]
+------------------------------
+Input sequence (event_id, agent_id, context):
+[['MOVE' 'my_move' '2,2']
+ ['MOVE' 'opponent_move' '0,1']
+ ['MOVE' 'my_move' '1,1']
+ ['MOVE' 'opponent_move' '0,0']
+ ['MOVE' 'my_move' '0,2']
+ ['MOVE' 'opponent_move' '2,0']
+ ['MOVE' 'my_move' '1,2']
+ ['GAME_END' 'system' 'X']
+ ['GAME_START' 'system' 'New Game - Playing as X']
+ ['MOVE' 'my_move' '2,1']]
+Predicted next event_id: MOVE
+Predicted next agent_id: my_move
+Predicted next context: 2,0
+Predicted anomaly: [1]
+------------------------------
+Input sequence (event_id, agent_id, context):
+[['MOVE' 'opponent_move' '0,1']
+ ['MOVE' 'my_move' '1,1']
+ ['MOVE' 'opponent_move' '0,0']
+ ['MOVE' 'my_move' '0,2']
+ ['MOVE' 'opponent_move' '2,0']
+ ['MOVE' 'my_move' '1,2']
+ ['GAME_END' 'system' 'X']
+ ['GAME_START' 'system' 'New Game - Playing as X']
+ ['MOVE' 'my_move' '2,1']
+ ['MOVE' 'opponent_move' '1,2']]
+Predicted next event_id: MOVE
+Predicted next agent_id: opponent_move
+Predicted next context: 1,0
+Predicted anomaly: [1]
+------------------------------
+Input sequence (event_id, agent_id, context):
+[['MOVE' 'my_move' '1,1']
+ ['MOVE' 'opponent_move' '0,0']
+ ['MOVE' 'my_move' '0,2']
+ ['MOVE' 'opponent_move' '2,0']
+ ['MOVE' 'my_move' '1,2']
+ ['GAME_END' 'system' 'X']
+ ['GAME_START' 'system' 'New Game - Playing as X']
+ ['MOVE' 'my_move' '2,1']
+ ['MOVE' 'opponent_move' '1,2']
+ ['MOVE' 'my_move' '0,0']]
+Predicted next event_id: MOVE
+Predicted next agent_id: my_move
+Predicted next context: 0,0
+Predicted anomaly: [1]
+------------------------------
+Input sequence (event_id, agent_id, context):
+[['MOVE' 'opponent_move' '0,0']
+ ['MOVE' 'my_move' '0,2']
+ ['MOVE' 'opponent_move' '2,0']
+ ['MOVE' 'my_move' '1,2']
+ ['GAME_END' 'system' 'X']
+ ['GAME_START' 'system' 'New Game - Playing as X']
+ ['MOVE' 'my_move' '2,1']
+ ['MOVE' 'opponent_move' '1,2']
+ ['MOVE' 'my_move' '0,0']
+ ['MOVE' 'opponent_move' '1,1']]
+Predicted next event_id: MOVE
+Predicted next agent_id: opponent_move
+Predicted next context: 1,0
+Predicted anomaly: [1]
+------------------------------
+Input sequence (event_id, agent_id, context):
+[['MOVE' 'my_move' '0,2']
+ ['MOVE' 'opponent_move' '2,0']
+ ['MOVE' 'my_move' '1,2']
+ ['GAME_END' 'system' 'X']
+ ['GAME_START' 'system' 'New Game - Playing as X']
+ ['MOVE' 'my_move' '2,1']
+ ['MOVE' 'opponent_move' '1,2']
+ ['MOVE' 'my_move' '0,0']
+ ['MOVE' 'opponent_move' '1,1']
+ ['MOVE' 'my_move' '0,2']]
+Predicted next event_id: MOVE
+Predicted next agent_id: my_move
+Predicted next context: 1,1
+Predicted anomaly: [1]
+------------------------------
+Input sequence (event_id, agent_id, context):
+[['MOVE' 'opponent_move' '2,0']
+ ['MOVE' 'my_move' '1,2']
+ ['GAME_END' 'system' 'X']
+ ['GAME_START' 'system' 'New Game - Playing as X']
+ ['MOVE' 'my_move' '2,1']
+ ['MOVE' 'opponent_move' '1,2']
+ ['MOVE' 'my_move' '0,0']
+ ['MOVE' 'opponent_move' '1,1']
+ ['MOVE' 'my_move' '0,2']
+ ['MOVE' 'opponent_move' '1,0']]
+Predicted next event_id: MOVE
+Predicted next agent_id: opponent_move
+Predicted next context: 2,1
+Predicted anomaly: [1]
+------------------------------
+Input sequence (event_id, agent_id, context):
+[['MOVE' 'my_move' '1,2']
+ ['GAME_END' 'system' 'X']
+ ['GAME_START' 'system' 'New Game - Playing as X']
+ ['MOVE' 'my_move' '2,1']
+ ['MOVE' 'opponent_move' '1,2']
+ ['MOVE' 'my_move' '0,0']
+ ['MOVE' 'opponent_move' '1,1']
+ ['MOVE' 'my_move' '0,2']
+ ['MOVE' 'opponent_move' '1,0']
+ ['GAME_END' 'system' 'O']]
+Predicted next event_id: GAME_END
+Predicted next agent_id: system
+Predicted next context: O
+Predicted anomaly: [0]
+------------------------------
